@@ -62,7 +62,8 @@ Para que los logs enviados por el ESP32 (ej. "obstáculo detectado distancia XX 
 6.  La **API Web** recibe los datos y los almacena en una base de datos.
 
 ## Estructura de Archivos Clave
-miapp/
+ ```text
+    miapp/
 ├── App.tsx             # (Componente raíz de la App)
 ├── index.ts            # Punto de entrada de la aplicación
 ├── package.json        # Dependencias y scripts
@@ -77,3 +78,6 @@ miapp/
     ├── internetConection.ts # Helper para verificar conectividad
     ├── location.ts          # Helper para obtener ubicación GPS
     └── service.ts           # Lógica de negocio (API, cola offline, timestamps)
+ ```
+
+
