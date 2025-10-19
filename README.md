@@ -63,7 +63,7 @@ Para que los logs enviados por el ESP32 (ej. "obstáculo detectado distancia XX 
 
 ## Estructura de Archivos Clave
  ```text
-    miapp/
+ miapp/
 ├── App.tsx             # (Componente raíz de la App)
 ├── index.ts            # Punto de entrada de la aplicación
 ├── package.json        # Dependencias y scripts
